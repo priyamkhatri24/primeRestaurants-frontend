@@ -1,0 +1,41 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  width: 95%;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin: 70px auto 0px auto;
+}
+.logo {
+  font-family: "Lato", "Arial", sans-serif;
+  color: rgb(192, 136, 32);
+}
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+.ulist {
+  display: flex;
+  list-style: none;
+}
+.ulist li {
+  margin: auto 10px;
+  color: gray;
+  cursor: pointer;
+  justify-content: flex-end;
+  font-size: 13px;
+  font-family: "Lato", "Arial", sans-serif;
+  transition-duration: 0.7s;
+}
+.ulist li:hover {
+  color: rgb(192, 136, 32);
+}
+.myName {
+  text-align: right;
+  margin: 0px;
+  color: #aaa;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 12px;
+}

@@ -1,0 +1,39 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 80px;
+  background-color: #444;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.signup {
+  border: 1px solid white;
+  padding: 12px;
+  width: 300px;
+  min-width: fit-content;
+  border-radius: 100px;
+  transition: background-color 0.2s;
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  margin: auto 20px;
+  font-weight: 300;
+  position: relative;
+  bottom: 0px;
+  transition-duration: 0.2s;
+  transition-property: bottom;
+}
+a:hover {
+  bottom: 3px;
+  text-shadow: 0px 9px 12px rgba(0, 0, 0, 1);
+}
+.signup:hover {
+  background-color: white;
+  color: black;
+}
